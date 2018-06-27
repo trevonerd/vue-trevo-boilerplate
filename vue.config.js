@@ -11,12 +11,7 @@ module.exports = {
                     // Required - The path to the webpack-outputted app to prerender.
                     staticDir: path.join(__dirname, 'dist'),
                     // Required - Routes to render.
-                    routes: ['/', '/about'],
-                    // This allows other renderers to be implemented with a
-                    // subset or superset of features.
-                    renderer: new PrerenderSpaPlugin.PuppeteerRenderer({
-                        args: ['--no-sandbox', '--disable-setuid-sandbox']
-                    })
+                    routes: ['/', '/about']
                 })
             ]
         };
