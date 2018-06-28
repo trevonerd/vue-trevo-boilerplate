@@ -1,6 +1,6 @@
 {
-  "name": "banana",
-  "short_name": "banana",
+  "name": "vue-trevo-boilerplate",
+  "short_name": "vue-trevo",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
