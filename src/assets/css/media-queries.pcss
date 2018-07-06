@@ -1,20 +1,6 @@
 :root {
-    --background-color: #f4f4f4;
     @custom-media --large-desktop (min-width: 1280px);
     @custom-media --desktop (max-width: 1279px);
     @custom-media --tablet (max-width: 979px);
     @custom-media --mobile (max-width: 480px);
 }
-
-[v-cloak] > * { display:none }
-
-body {
-    background-color: var(--background-color);
-}
-
-.home {
-    @mixin grid @large-desktop 1;
-    
-    justify-items: center;
-}
-
